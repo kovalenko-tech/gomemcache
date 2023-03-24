@@ -21,7 +21,7 @@ $ go get github.com/kovalenko-tech/gomemcache
 To use GoMemCache in your Go project, import the package and create a new instance of the `GoMemCache` type using the `New()` function:
 
 ```go
-import "github.com/your-username/gomemcache"
+import "github.com/kovalenko-tech/gomemcache"
 
 cache := gomemcache.New()
 ```

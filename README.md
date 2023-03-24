@@ -1,16 +1,16 @@
-#GoMemCache
+# GoMemCache
 
 GoMemCache is a simple in-memory cache implementation written in Go. It provides a key-value store that can be used to cache data in memory.
 
-###Installation
+### Installation
 You can install GoMemCache by running the following command:
 
 ```shell
 $ go get github.com/kovalenko-tech/gomemcache
 ```
 
-###Usage
-To use GoMemCache in your Go project, import the package and create a new instance of the `GoMemCache` type using the `New() `function:
+### Usage
+To use GoMemCache in your Go project, import the package and create a new instance of the `GoMemCache` type using the `New()` function:
 
 ```go
 import "github.com/your-username/gomemcache"
@@ -20,7 +20,7 @@ cache := gomemcache.New()
 
 You can then use the following methods to interact with the cache:
 
-####\`Set(key string, value interface{})`
+#### \`Set(key string, value interface{})`
 
 Sets a key-value pair in the cache.
 
@@ -28,7 +28,7 @@ Sets a key-value pair in the cache.
 cache.Set("mykey", "myvalue")
 ```
 
-####\`Get(key string) interface{}`
+#### \`Get(key string) interface{}`
 
 Retrieves the value associated with a given key from the cache.
 
@@ -36,7 +36,7 @@ Retrieves the value associated with a given key from the cache.
 value := cache.Get("mykey")
 ```
 
-####\`Delete(key string)`
+#### \`Delete(key string)`
 
 Removes a key-value pair from the cache.
 
@@ -44,5 +44,5 @@ Removes a key-value pair from the cache.
 cache.Delete("mykey")
 ```
 
-###License
+### License
 GoMemCache is licensed under the MIT License. Feel free to use, modify, and distribute this code as you see fit.
